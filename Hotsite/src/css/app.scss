@@ -1,0 +1,16 @@
+// app global css in SCSS form
+body {
+    font-family: "kade", sans-serif;
+  }
+  
+  // Optional: Override Quasar's text classes
+  .text-h1, .text-h2, .text-h3, .text-h4, .text-h5, .text-h6,
+  .text-body1, .text-body2, .text-subtitle1, .text-subtitle2, span, h1, h2, h3, h4, h5, h6 {
+    font-family: "kade", sans-serif !important;
+    color: #fff;
+    font-weight: 300;
+  }
+  
+  .default-text{
+    font-size: 18px;
+  }
